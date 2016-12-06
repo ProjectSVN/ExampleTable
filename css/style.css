@@ -1,0 +1,26 @@
+/* css by me */
+@media screen and (min-width:432px ) {
+	header .title {font-size: 16px;}
+	.content .table-detail th, .content .table-detail td{ font-size: 13px;}
+}
+
+@media screen and (max-width:432px ) {
+	/* kich thuoc chu thay doi theo tung kich thuoc de no tu dong responsive */
+	header .title {font-size: 13px;}
+	.content .table-detail th, .content .table-detail td{ font-size: 10px;}
+}
+
+@media screen and (max-width:284px ) {
+	/* kich thuoc chu thay doi theo tung kich thuoc de no tu dong responsive */
+	header .title {font-size: 10px;}
+	.content .table-detail th, .content .table-detail td{ font-size: 7px;}
+}
+
+/* css header */
+header{}
+header .title{ text-transform: uppercase; font-family: verdana; font-weight: bold; color: red; text-align: center;}
+
+/* css content */
+.content{}
+.content .table-detail th, .content .table-detail td{font-family: verdana; font-weight: bold; text-align: center;}
+.content .table-detail th {background: gray; color: yellow;}
